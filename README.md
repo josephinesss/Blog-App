@@ -36,7 +36,7 @@
 #### REST API
 <img width="700" alt="截屏2023-01-31 下午5 51 31" src="https://user-images.githubusercontent.com/117619304/215925499-665c361d-389b-4119-a630-7afdbad0c874.png">
 
-## DAO Layrer (Repository)
+## DAO Layer (Repository)
 
 ### entity 
 
@@ -56,8 +56,8 @@
 ### serviceImpl
 * Implements service
 
-## Controller (REST API)
-#### REST API Design for Post Resource
+## Controller Layer (REST API)
+#### REST API Design for Post Entity
 
 | HTTP METHOD | URL PATH                                         | STATUS CODE | DESCRIPTION                     |
 |-------------|-----------------------------------------------   |-------------|---------------------------------|
@@ -68,7 +68,7 @@
 | DELETE      | /api/v1/posts/{id}                               | 200 OK      | Delete post by id               |
 | GET         | api/v1/posts?pageSize=5pageNo=1&sortBy=firstName | 200 OK      | Paginating and soring posts     |
 
-#### REST API Design for Comment Resource
+#### REST API Design for Comment Entity
 
 | HTTP METHOD | URL PATH                             | STATUS CODE | DESCRIPTION                                                 |
 |-------------|-----------------------------------   |-------------|-------------------------------------------------------------|
@@ -78,14 +78,14 @@
 | PUT         | /api/v1/posts/{postId}/comments/{id} | 200 OK      | Update comment by id if it belongs to post with id = postId |
 | DELETE      | /api/v1/posts/{postId}/comments/{id} | 200 OK      | Delete comment by id if it belongs to post with id= postId  |
 
-#### REST API Design for Sign up and Signin/Login system (Authentication)
+#### REST API Design for Sign up and Signin/Login system (Authentication Entity)
 
 | HTTP METHOD   | URL PATH         | STATUS CODE   | DESCRIPTION   |
 |---------------|------------------|---------------|---------------|
 | POST          | /api/v1/auth/signup | 200 OK        | Sign Up       |
 | POST          | /api/v1/auth/signin | 200 OK        | Sign In       |
 
-#### REST API Design for Category Resource
+#### REST API Design for Category Entity
 
 | HTTP METHOD | URL PATH               | STATUS CODE | DESCRIPTION                     |
 |-------------|------------------------|-------------|---------------------------------|
@@ -97,7 +97,7 @@
 
 ## DTO (between view layer and controller layer)
 ### payload
-* Data Transfer Object (DTO) defines how to send data over the network and would hide detailed implementation of JPA entities and send DTo rather than entity back to the client. 
+* Data Transfer Object (DTO) defines how to send data over the network and would hide detailed implementation of JPA entities and send DTO rather than entity back to the client. 
 
 ## JSON 
 
