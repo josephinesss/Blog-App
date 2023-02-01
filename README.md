@@ -2,12 +2,12 @@
 
 ## Project Introduction
 
-#### This is a back-end java project building REST API's using Spring Boot, Spring Security, JWT, Spring Data JPA, Hibernate, MySQL, Docker and Deploy on AWS.
+* This is a back-end java project building REST API's using Spring Boot, Spring Security, JWT, Spring Data JPA, Hibernate, MySQL, Docker and Deploy on AWS.
 
 ## Application Features
 
-#### Posts Management  
-* Create, Read, Update and Delete Posts. Provide Pagination and Sorting support
+* Posts Management  
+** Create, Read, Update and Delete Posts. Provide Pagination and Sorting support
 #### Comments Management 
 * Create, Read, Update and Delete Comments for Blog Post (One to Many)
 #### Authentication and Authorization 
@@ -28,12 +28,22 @@
 #### REST Client: Postman
 #### Cloud for Deployment: AWS
 
+## Architecture
+
+#### Spring Boot Architecture
+<img width="500" alt="截屏2023-01-31 下午5 49 43" src="https://user-images.githubusercontent.com/117619304/215925291-51102bc9-1b6b-4471-a98a-151bd6984d30.png">
+
+#### REST API
+<img width="983" alt="截屏2023-01-31 下午5 51 31" src="https://user-images.githubusercontent.com/117619304/215925499-665c361d-389b-4119-a630-7afdbad0c874.png">
+
 ## Resources (Entity)
 
 * Post - CRUD REST APIs with Pagination and Sorting and mapped by categories
 * Comment - CRUD REST APIs mapped by posts 
 * User & Role - Register and Login REST APIs; Limiting user access by assigning user roles; Secure APIs using JWT
 * Catagory - CRUD REST APIs mapping posts to certain categories
+
+## Controller (REST API)
 
 #### REST API Design for Post Resource
 
