@@ -7,7 +7,7 @@
 ## Application Features
 
 * Posts Management  
-** Create, Read, Update and Delete Posts. Provide Pagination and Sorting support
+  Create, Read, Update and Delete Posts. Provide Pagination and Sorting support
 #### Comments Management 
 * Create, Read, Update and Delete Comments for Blog Post (One to Many)
 #### Authentication and Authorization 
@@ -31,10 +31,10 @@
 ## Architecture
 
 #### Spring Boot Architecture
-<img width="500" alt="截屏2023-01-31 下午5 49 43" src="https://user-images.githubusercontent.com/117619304/215925291-51102bc9-1b6b-4471-a98a-151bd6984d30.png">
+<img width="700" alt="截屏2023-01-31 下午5 49 43" src="https://user-images.githubusercontent.com/117619304/215925291-51102bc9-1b6b-4471-a98a-151bd6984d30.png">
 
 #### REST API
-<img width="983" alt="截屏2023-01-31 下午5 51 31" src="https://user-images.githubusercontent.com/117619304/215925499-665c361d-389b-4119-a630-7afdbad0c874.png">
+<img width="700" alt="截屏2023-01-31 下午5 51 31" src="https://user-images.githubusercontent.com/117619304/215925499-665c361d-389b-4119-a630-7afdbad0c874.png">
 
 ## Resources (Entity)
 
