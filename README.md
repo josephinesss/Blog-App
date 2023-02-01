@@ -95,6 +95,11 @@
 | PUT         | /api/v1/categories/{id}}  | 200 OK      | Update category by categoryId   |
 | DELETE      | /api/v1/categories/{id}}  | 200 OK      | Delete category by categoryId   |
 
+## DTO (between view layer and controller layer)
+### payload
+* Data Transfer Object (DTO) defines how to send data over the network and would hide detailed implementation of JPA entities and send DTo rather than entity back to the client. 
+
+## JSON 
 
 ## Remaining Issues - API Documents
 * Swagger does not have proper support in Spring Boot 3, while SpringDoc Open API does not have proper support for Spring Security 6 and JWT
